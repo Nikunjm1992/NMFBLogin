@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6F8F8B21CA3D6C0001990D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F8F8A21CA3D6C0001990D /* AppDelegate.swift */; };
+		5F6F8F8D21CA3D6C0001990D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F8F8C21CA3D6C0001990D /* ViewController.swift */; };
+		5F6F8F9021CA3D6C0001990D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6F8F8E21CA3D6C0001990D /* Main.storyboard */; };
+		5F6F8F9221CA3D6D0001990D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6F8F9121CA3D6D0001990D /* Assets.xcassets */; };
+		5F6F8F9521CA3D6D0001990D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6F8F9321CA3D6D0001990D /* LaunchScreen.storyboard */; };
+		5F81E01B21CB6DA8007F3B26 /* FBPostHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81E01621CB6DA8007F3B26 /* FBPostHelper.swift */; };
+		5F81E01C21CB6DA8007F3B26 /* FBUserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81E01721CB6DA8007F3B26 /* FBUserHelper.swift */; };
+		5F81E01D21CB6DA8007F3B26 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81E01921CB6DA8007F3B26 /* APIHelper.swift */; };
+		5F81E01F21CB6FD1007F3B26 /* FBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81E01E21CB6FD1007F3B26 /* FBHelper.swift */; };
+		5F81E02221CB7004007F3B26 /* NMLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81E02121CB7004007F3B26 /* NMLoginVC.swift */; };
+		5F81E02421CB700E007F3B26 /* NMLoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F81E02321CB700E007F3B26 /* NMLoginVC.storyboard */; };
+		5F81E02621CB71AD007F3B26 /* FBLoginButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81E02521CB71AD007F3B26 /* FBLoginButtonHelper.swift */; };
+		614AD0DD1C1EC17B135A510C /* Pods_NMFBLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6164F5267A6595DCC163F4 /* Pods_NMFBLogin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F6F8F8721CA3D6C0001990D /* NMFBLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMFBLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6F8F8A21CA3D6C0001990D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F6F8F8C21CA3D6C0001990D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F6F8F8F21CA3D6C0001990D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F6F8F9121CA3D6D0001990D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F6F8F9421CA3D6D0001990D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F6F8F9621CA3D6D0001990D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F81E01621CB6DA8007F3B26 /* FBPostHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBPostHelper.swift; sourceTree = "<group>"; };
+		5F81E01721CB6DA8007F3B26 /* FBUserHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBUserHelper.swift; sourceTree = "<group>"; };
+		5F81E01921CB6DA8007F3B26 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		5F81E01E21CB6FD1007F3B26 /* FBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBHelper.swift; sourceTree = "<group>"; };
+		5F81E02121CB7004007F3B26 /* NMLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMLoginVC.swift; sourceTree = "<group>"; };
+		5F81E02321CB700E007F3B26 /* NMLoginVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NMLoginVC.storyboard; sourceTree = "<group>"; };
+		5F81E02521CB71AD007F3B26 /* FBLoginButtonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginButtonHelper.swift; sourceTree = "<group>"; };
+		8A6164F5267A6595DCC163F4 /* Pods_NMFBLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NMFBLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD471195EA3A4E48C9FE8679 /* Pods-NMFBLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMFBLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-NMFBLogin/Pods-NMFBLogin.release.xcconfig"; sourceTree = "<group>"; };
+		EA98998D83BD96FCCAAFC94D /* Pods-NMFBLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMFBLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NMFBLogin/Pods-NMFBLogin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F6F8F8421CA3D6C0001990D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614AD0DD1C1EC17B135A510C /* Pods_NMFBLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FF684CB5B3FF0E60E0FBA73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A6164F5267A6595DCC163F4 /* Pods_NMFBLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F6F8F7E21CA3D6C0001990D = {
+			isa = PBXGroup;
+			children = (
+				5F6F8F8921CA3D6C0001990D /* NMFBLogin */,
+				5F6F8F8821CA3D6C0001990D /* Products */,
+				94A9F0353AA40A830A4D619F /* Pods */,
+				4FF684CB5B3FF0E60E0FBA73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6F8F8821CA3D6C0001990D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F6F8F8721CA3D6C0001990D /* NMFBLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F6F8F8921CA3D6C0001990D /* NMFBLogin */ = {
+			isa = PBXGroup;
+			children = (
+				5F81E01121CB6DA8007F3B26 /* Classes */,
+				5F6F8F8A21CA3D6C0001990D /* AppDelegate.swift */,
+				5F6F8F8C21CA3D6C0001990D /* ViewController.swift */,
+				5F6F8F8E21CA3D6C0001990D /* Main.storyboard */,
+				5F6F8F9121CA3D6D0001990D /* Assets.xcassets */,
+				5F6F8F9321CA3D6D0001990D /* LaunchScreen.storyboard */,
+				5F6F8F9621CA3D6D0001990D /* Info.plist */,
+			);
+			path = NMFBLogin;
+			sourceTree = "<group>";
+		};
+		5F81E01121CB6DA8007F3B26 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F81E02021CB6FEF007F3B26 /* LoginVC */,
+				5F81E01421CB6DA8007F3B26 /* Helper */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5F81E01421CB6DA8007F3B26 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5F81E01521CB6DA8007F3B26 /* FBHelper */,
+				5F81E01821CB6DA8007F3B26 /* APIHelper */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5F81E01521CB6DA8007F3B26 /* FBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5F81E01E21CB6FD1007F3B26 /* FBHelper.swift */,
+				5F81E01621CB6DA8007F3B26 /* FBPostHelper.swift */,
+				5F81E01721CB6DA8007F3B26 /* FBUserHelper.swift */,
+				5F81E02521CB71AD007F3B26 /* FBLoginButtonHelper.swift */,
+			);
+			path = FBHelper;
+			sourceTree = "<group>";
+		};
+		5F81E01821CB6DA8007F3B26 /* APIHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5F81E01921CB6DA8007F3B26 /* APIHelper.swift */,
+			);
+			path = APIHelper;
+			sourceTree = "<group>";
+		};
+		5F81E02021CB6FEF007F3B26 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				5F81E02121CB7004007F3B26 /* NMLoginVC.swift */,
+				5F81E02321CB700E007F3B26 /* NMLoginVC.storyboard */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		94A9F0353AA40A830A4D619F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA98998D83BD96FCCAAFC94D /* Pods-NMFBLogin.debug.xcconfig */,
+				BD471195EA3A4E48C9FE8679 /* Pods-NMFBLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F6F8F8621CA3D6C0001990D /* NMFBLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6F8F9921CA3D6D0001990D /* Build configuration list for PBXNativeTarget "NMFBLogin" */;
+			buildPhases = (
+				95F3E00BE0AD9EB3384DF50B /* [CP] Check Pods Manifest.lock */,
+				5F6F8F8321CA3D6C0001990D /* Sources */,
+				5F6F8F8421CA3D6C0001990D /* Frameworks */,
+				5F6F8F8521CA3D6C0001990D /* Resources */,
+				208EBD9CDF9E5CC1C99C4632 /* [CP] Embed Pods Frameworks */,
+				A6A09E2EB9E3F6DDDC4FEA23 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NMFBLogin;
+			productName = NMFBLogin;
+			productReference = 5F6F8F8721CA3D6C0001990D /* NMFBLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6F8F7F21CA3D6C0001990D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NM;
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Codeappz;
+				TargetAttributes = {
+					5F6F8F8621CA3D6C0001990D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 5F6F8F8221CA3D6C0001990D /* Build configuration list for PBXProject "NMFBLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F6F8F7E21CA3D6C0001990D;
+			productRefGroup = 5F6F8F8821CA3D6C0001990D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6F8F8621CA3D6C0001990D /* NMFBLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F6F8F8521CA3D6C0001990D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F81E02421CB700E007F3B26 /* NMLoginVC.storyboard in Resources */,
+				5F6F8F9521CA3D6D0001990D /* LaunchScreen.storyboard in Resources */,
+				5F6F8F9221CA3D6D0001990D /* Assets.xcassets in Resources */,
+				5F6F8F9021CA3D6C0001990D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		208EBD9CDF9E5CC1C99C4632 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NMFBLogin/Pods-NMFBLogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMFBLogin/Pods-NMFBLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95F3E00BE0AD9EB3384DF50B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NMFBLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6A09E2EB9E3F6DDDC4FEA23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NMFBLogin/Pods-NMFBLogin-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMFBLogin/Pods-NMFBLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6F8F8321CA3D6C0001990D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F81E01D21CB6DA8007F3B26 /* APIHelper.swift in Sources */,
+				5F81E02621CB71AD007F3B26 /* FBLoginButtonHelper.swift in Sources */,
+				5F81E02221CB7004007F3B26 /* NMLoginVC.swift in Sources */,
+				5F81E01C21CB6DA8007F3B26 /* FBUserHelper.swift in Sources */,
+				5F6F8F8D21CA3D6C0001990D /* ViewController.swift in Sources */,
+				5F81E01F21CB6FD1007F3B26 /* FBHelper.swift in Sources */,
+				5F6F8F8B21CA3D6C0001990D /* AppDelegate.swift in Sources */,
+				5F81E01B21CB6DA8007F3B26 /* FBPostHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F6F8F8E21CA3D6C0001990D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6F8F8F21CA3D6C0001990D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F6F8F9321CA3D6D0001990D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6F8F9421CA3D6D0001990D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F6F8F9721CA3D6D0001990D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F6F8F9821CA3D6D0001990D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F6F8F9A21CA3D6D0001990D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA98998D83BD96FCCAAFC94D /* Pods-NMFBLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UA7S2M5P3;
+				INFOPLIST_FILE = NMFBLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeappz.NMFBLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F6F8F9B21CA3D6D0001990D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD471195EA3A4E48C9FE8679 /* Pods-NMFBLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UA7S2M5P3;
+				INFOPLIST_FILE = NMFBLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeappz.NMFBLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F6F8F8221CA3D6C0001990D /* Build configuration list for PBXProject "NMFBLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6F8F9721CA3D6D0001990D /* Debug */,
+				5F6F8F9821CA3D6D0001990D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6F8F9921CA3D6D0001990D /* Build configuration list for PBXNativeTarget "NMFBLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6F8F9A21CA3D6D0001990D /* Debug */,
+				5F6F8F9B21CA3D6D0001990D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6F8F7F21CA3D6C0001990D /* Project object */;
+}

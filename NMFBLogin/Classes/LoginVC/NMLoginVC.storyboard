@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Uip-Jh-ujv">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="CEv-wX-WgZ">
+            <objects>
+                <viewController restorationIdentifier="NMLoginVC" storyboardIdentifier="NMLoginVC" id="Uip-Jh-ujv" customClass="NMLoginVC" customModule="NMFBLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ljV-uX-3HD"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Bq-k0-tks"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OXg-oh-5QR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hPa-Bi-iNB" userLabel="SocialButtonsContainerView">
+                                <rect key="frame" x="10" y="301.5" width="355" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFF-zV-OKj" userLabel="FacebookButton" customClass="FBLoginBtnHelper" customModule="NMFBLogin" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="64"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="15" maxY="0.0"/>
+                                        <state key="normal" title="Login with Facebook" image="facebook-icon"/>
+                                        <connections>
+                                            <action selector="onClickBtn_FaceboolLogin:" destination="Uip-Jh-ujv" eventType="touchUpInside" id="qoc-qf-OvT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="oFF-zV-OKj" firstAttribute="top" secondItem="hPa-Bi-iNB" secondAttribute="top" id="0KC-dG-KmG"/>
+                                    <constraint firstAttribute="height" constant="64" id="1FE-nv-lng"/>
+                                    <constraint firstAttribute="trailing" secondItem="oFF-zV-OKj" secondAttribute="trailing" id="Nbi-WY-hQ7"/>
+                                    <constraint firstAttribute="bottom" secondItem="oFF-zV-OKj" secondAttribute="bottom" id="PEr-S2-FAZ"/>
+                                    <constraint firstItem="oFF-zV-OKj" firstAttribute="leading" secondItem="hPa-Bi-iNB" secondAttribute="leading" id="hfB-U0-N5M"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NM FACEBOOK LOGIN" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85l-PX-0Zk">
+                                <rect key="frame" x="99" y="68" width="177" height="62.5"/>
+                                <color key="tintColor" red="0.1215686275" green="0.29411764709999999" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="26"/>
+                                <color key="textColor" red="0.81960784310000001" green="0.71764705880000002" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.078431372549019607" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="KuK-bp-sSA" firstAttribute="trailing" secondItem="hPa-Bi-iNB" secondAttribute="trailing" constant="10" id="0AD-KX-FvU"/>
+                            <constraint firstItem="KuK-bp-sSA" firstAttribute="trailing" secondItem="85l-PX-0Zk" secondAttribute="trailing" constant="99" id="8WU-Gc-Xxn"/>
+                            <constraint firstItem="hPa-Bi-iNB" firstAttribute="leading" secondItem="KuK-bp-sSA" secondAttribute="leading" constant="10" id="PP7-Tc-9ka"/>
+                            <constraint firstItem="hPa-Bi-iNB" firstAttribute="centerX" secondItem="OXg-oh-5QR" secondAttribute="centerX" id="PxW-u9-m5N"/>
+                            <constraint firstItem="85l-PX-0Zk" firstAttribute="top" secondItem="ljV-uX-3HD" secondAttribute="bottom" constant="48" id="Qrj-Vb-l65"/>
+                            <constraint firstItem="hPa-Bi-iNB" firstAttribute="centerY" secondItem="OXg-oh-5QR" secondAttribute="centerY" id="dOs-6w-qUp"/>
+                            <constraint firstItem="85l-PX-0Zk" firstAttribute="leading" secondItem="KuK-bp-sSA" secondAttribute="leading" constant="99" id="vwM-RH-J9o"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KuK-bp-sSA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lq0-kw-40q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="135.38230884557723"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="facebook-icon" width="17" height="17"/>
+    </resources>
+</document>
